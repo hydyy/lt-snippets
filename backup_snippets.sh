@@ -7,7 +7,7 @@
 #zip -r -o ~/Documents/gitCode/wssnippet/old.zip ~/Documents/gitCode/wssnippet/
 
 # # remove
-# rm -rf ~/Documents/gitCode/wssnippet/*
+ rm ./*.codesnippet
 
 # mkdir
 #mkdir ~/Documents/gitCode/wssnippet/

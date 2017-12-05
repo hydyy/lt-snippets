@@ -27,7 +27,7 @@ override func setup() {
   }
   
   override func bindModel() {
-    super.bindLayout()
+    super.bindModel()
   }
   
   override func bindAction() {
@@ -53,6 +53,6 @@ override func setup() {
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
