@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lt-life</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+////////////////////////////////////////////
+// MARK: - life
+////////////////////////////////////////////
+
+override func setup() {
+    super.setup()
+  }
+  
+  override func bindView() {
+    super.bindView()
+  }
+  
+  override func bindLayout() {
+    super.bindLayout()
+  }
+  
+  override func bindModel() {
+    super.bindLayout()
+  }
+  
+  override func bindAction() {
+    super.bindAction()
+  }
+
+////////////////////////////////////////////
+// MARK: - actions
+////////////////////////////////////////////
+
+
+////////////////////////////////////////////
+// MARK: - getter
+////////////////////////////////////////////
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AE341B1A-37B1-42E9-99D6-6278C63665A5</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>lt-life</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lt-api</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+enum &lt;#Name#&gt; {
+
+}
+
+extension &lt;#Name#&gt; : ApiType {
+var baseURL: String {
+    return Net.isDebug ?
+    &lt;#debug_url#&gt;:
+    &lt;#url#&gt;
+}
+
+var path: String {
+    switch self {
+        
+        default: return ""
+    }
+}
+
+var parameters: [String : Any]! {
+    switch self {
+        
+        default : return [:]
+    }
+}
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A7255A92-1074-4184-AB13-BFD8D0BE71B1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>lt-api</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

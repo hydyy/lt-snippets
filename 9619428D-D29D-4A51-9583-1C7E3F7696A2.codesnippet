@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lt-netdict</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>Net.requestDict(api: &lt;#T##ApiType#&gt;, modelBack: {[weak self] (dict, data) in
+          guard let data = data,
+            let obj = data["object"] as? Dictionary&lt;String, Any&gt;,
+            let &lt;#key#&gt; = obj[&lt;#key#&gt;] as? String,
+            let strong = self else { return }
+          
+          &lt;#code here#&gt;
+        })</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9619428D-D29D-4A51-9583-1C7E3F7696A2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>lt-netdict</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
