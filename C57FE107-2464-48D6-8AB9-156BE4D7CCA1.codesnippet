@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>Net.request(api: &lt;#api#&gt;, type: &lt;#typeModel#&gt;, modelback: {[weak self] (model) in
+	<string>Net.post(api: &lt;#api#&gt;, type: &lt;#typeModel#&gt;, modelback: {[weak self] (model) in
 guard let strong = self,
 let model = model as &lt;#typeModel#&gt;!,
 let data = model.data?.array else { return }
