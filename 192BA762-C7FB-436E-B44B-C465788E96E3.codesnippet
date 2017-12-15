@@ -3,27 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lt-netdict</string>
+	<string>lt-weak</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>Net.postDict(api: &lt;#api#&gt;, modelBack: { (json, data) in
-guard let data = data,
-let obj = data["object"] as? Dictionary&lt;String, Any&gt;,
-let token = obj[&lt;#key#&gt;] as? String else { return }
-
-})</string>
+	<string>[weak self] in
+      guard let strong = self else { return }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9619428D-D29D-4A51-9583-1C7E3F7696A2</string>
+	<string>192BA762-C7FB-436E-B44B-C465788E96E3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>lt-netdict</string>
+	<string>lt-weak</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
