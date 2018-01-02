@@ -3,19 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ddpc</string>
+	<string>lt-alert</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy)</string>
+	<string>LTDialogAlert(title: &lt;#title#&gt;,
+                  message: &lt;#message#&gt;,
+                  buttons: [CancelButton(title: "取消"),
+                            DefaultButton(title: "确定", action: {
+                              
+                            })], control: self)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F584DB52-E4B7-4018-AC48-0EC0C2CF0034</string>
+	<string>E464A03F-3543-4F4F-8A38-7D2007C47485</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ddpc</string>
+	<string>lt-alert</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

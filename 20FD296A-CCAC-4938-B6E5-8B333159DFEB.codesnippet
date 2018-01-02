@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ddpc</string>
+	<string>ddd</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy)</string>
+	<string>/** &lt;#desc#&gt; */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F584DB52-E4B7-4018-AC48-0EC0C2CF0034</string>
+	<string>20FD296A-CCAC-4938-B6E5-8B333159DFEB</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ddpc</string>
+	<string>ddd</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

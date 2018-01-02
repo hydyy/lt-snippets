@@ -11,9 +11,11 @@
 	<key>IDECodeSnippetContents</key>
 	<string>@property (nonatomic, copy)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F584DB52-E4B7-4018-AC48-0EC0C2CF0034</string>
+	<string>0B09E264-A95C-42D4-BD0B-A2EE31362B62</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ddpc</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>ddpc</string>
 	<key>IDECodeSnippetUserSnippet</key>
