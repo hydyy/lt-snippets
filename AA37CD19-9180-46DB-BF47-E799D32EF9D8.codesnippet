@@ -16,6 +16,9 @@
 - (void)bindModel {
 }
 
+- (void)bindLayout {
+}
+
 - (void)bindAction {
 }
 
